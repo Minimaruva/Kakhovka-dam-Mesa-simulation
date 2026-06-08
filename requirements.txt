@@ -2,3 +2,4 @@ mesa
 matplotlib
 pandas
 streamlit
+seaborn
