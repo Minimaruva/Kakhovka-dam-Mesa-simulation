@@ -112,7 +112,7 @@ class MoneyModel(mesa.Model):
 all_wealth = []
 
 for _ in range(100):
-    model = MoneyModel(10)
+    model = MoneyModel(100)
     model.run_for(30)
 
     # store results
