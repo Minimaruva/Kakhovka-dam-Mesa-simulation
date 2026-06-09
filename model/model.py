@@ -16,7 +16,7 @@ import pandas as pd
 import mesa
 from agents import RefugeeAgent
 
-class DisasterModel(mesa.Model):
+class FloodModel(mesa.Model):
     def __init__(self, n=10, seed=None):
         super().__init__()
         self.num_agents = n
